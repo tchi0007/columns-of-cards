@@ -11,3 +11,11 @@ html {
 body {
   margin: 0;
 }
+
+.cards{
+  display: flex;
+}
+
+img {
+  width: 100px;
+}
