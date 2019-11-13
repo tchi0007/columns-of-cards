@@ -1,7 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: sans-sans-serif;
-  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -10,12 +8,88 @@ html {
 
 body {
   margin: 0;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  background-color: #f2f2f2;
 }
 
-.cards{
+h2{
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+}
+
+p {
+  font-size: .875rem;
+  font-style: italic;
+}
+.cards {
   display: flex;
+  padding: 1.5rem;
+}
+
+.cards div{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  width 25%;
+  padding: .5rem;
+  border-left: 2px solid #333;
+  border-right: 2px solid #333;
+}
+
+.cards p {
+  flex-grow: 1;
+  margin: 0 0 1.5rem;
 }
 
 img {
+  width: 100%;
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+.image {
   width: 100px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #333;
+  padding: .4em .75em .3em;
+  border: 2px solid #333;
+  border-radius: 8px;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.one{
+  background-color: #e2e2e2;
+}
+
+.two {
+  background-color: #ccc;
+}
+
+.three {
+  background-color: #aaa;
+}
+
+.four {
+background-color: #999;
 }
